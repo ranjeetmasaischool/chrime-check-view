@@ -14,7 +14,7 @@ const Navbar=()=>{
     return(
         <nav className='navbar'>
             <div className='logo'>
-                <a>Arrest India</a>
+                <a href='/'>Arrest India</a>
             </div>
             <div className='navlink'>
                 {navlinks.map((ele,i)=>{
