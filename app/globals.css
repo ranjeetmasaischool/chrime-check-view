@@ -1,0 +1,25 @@
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #2525252f; */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Apply styles to the main scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+::-webkit-scrollbar-track-piece{
+  background-color: #252525;
+}
+/* Apply styles to the thumb of the main scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: blueviolet; /* Background color of the scrollbar thumb */
+}

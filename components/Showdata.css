@@ -1,0 +1,29 @@
+/* Custom CSS */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #e2e8f0; /* Replace with your desired border color */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  .custom-table-cell {
+    text-transform: capitalize; /* Capitalize text */
+  }
+  .showresultmain{
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+  }
+  .datanotfound{
+    text-align: center;
+  }
+.custom-table tr:nth-child(even),.custom-table th{
+    background-color: aliceblue;
+}
+.showresultmain{
+  margin-bottom: 80px;
+}

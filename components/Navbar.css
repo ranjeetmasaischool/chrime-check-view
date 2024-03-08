@@ -1,0 +1,54 @@
+.navbar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  border: 1px solid  transparent;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  /* border-radius: 0 0 5px 5px; */
+  background-color: #252525;
+  z-index: 100;
+}
+.logo{
+    /* border: 1px solid red; */
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.logo a{
+    text-transform: uppercase;
+    background-color: blueviolet;
+    font-size: large;
+}
+.navlink{
+    /* border: 1px solid red; */
+    padding: 5px 8px;
+}
+.navlink a {
+    border: 1px solid blueviolet;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+}
+.footer{
+    color: white;
+    text-align: center;
+    border: 1px solid  transparent;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #252525;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+}
