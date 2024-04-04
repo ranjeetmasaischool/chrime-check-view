@@ -3,8 +3,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 import Footer from "@/components/Footer";
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2333627269955484"
+     crossorigin="anonymous"></script>
 export const metadata = {
-   name:"google-adsense-account", content:"ca-pub-2333627269955484",
   title: "Arrest India",
   description: "Search crime data of indian pepole using there name, Aadhar number, State, Mobile Number and other Details",
   
